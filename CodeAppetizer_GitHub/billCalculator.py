@@ -5,8 +5,8 @@
 
 bill = raw_input("How much was your bill?")
 
-tip = bill * .18
+tip = int(bill) * .18
 
-total_bill = bill + tip
+total_bill = int(bill) + tip
 
 print "The tip is %f and the total bill is %f ." % (tip, total_bill)
